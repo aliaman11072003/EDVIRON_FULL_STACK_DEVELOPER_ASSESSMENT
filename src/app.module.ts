@@ -10,7 +10,7 @@ import { TransactionsModule } from './transactions/transactions.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot(process.env.MONGO_URI),
+    MongooseModule.forRoot(process.env.MONGODB_URI),
     AuthModule,
     PaymentModule,
     TransactionsModule,
