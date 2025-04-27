@@ -57,10 +57,7 @@ MONGODB_URI=mongodb://localhost:27017/school-payment
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRY=1d
 
-# Edviron Payment Configuration
-EDVIRON_API_URL=https://api.edviron.com
-EDVIRON_API_KEY=your_edviron_api_key
-EDVIRON_PG_KEY=your_edviron_pg_key
+# Edviron Payment 
 SCHOOL_ID=your_school_id
 
 # Server Configuration
